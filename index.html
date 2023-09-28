@@ -18,8 +18,8 @@
       <ul>
         <li><a href="#hero">Home</a></li>
         <li><a href="#">Sobre Nós</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#hero2">Projetos</a></li>
+        <li><a href="#hero2">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -41,43 +41,35 @@
       </div>
   </section>
   <section id="hero2"> 
-    <h2 id="Orçamento">Faça um orçamento para o seu projeto</h2>
 
-    <form action="" id="form-orcamento">
-      <div class="campo linha">
-          <label for="nome">Veículo (Marca e Modelo)</label>
-          <input type="text" id="nome">
-      </div>
-
-      <div class="campo">
-          <label for="qtde">Ano de fabricação</label>
-          <input type="number" min="1950" id="qtde">
-      </div>
-      
-      <div class="campo">
-          <label for="tipo">Motor</label>
-          <select name="tipo" id="tipo">
-              <option value="">1.0</option>
-              <option value="">1.4</option>
-              <option value="">1.5</option>
-              <option value="">1.6</option>
-              <option value="">1.8</option>
-              <option value="">2.0</option>
-              <option value="">2.2</option>
-          </select>
-        </div>
-    </form>
-    <div class="botão2">
-      <button>
-        Solicitar informações para meu projeto
-      </button>
-    </div>
-  </section>
+    <img src="./assets/fundoTurbo.jpg" alt="">
     
-
-  </section>
-  <section id="">
-
-  </section>
+    <div id="orcamento-right">
+      
+      <h1 id="Orçamento">Faça um orçamento para o seu projeto</h1>
+      <form action="" id="form-orcamento">
+        <div class="campo linha">
+            <label for="nome">Veículo (Marca e Modelo)</label>
+            <input type="text" id="nome">
+        </div>
+  
+        <div class="campo">
+            <label for="qtde">Ano de fabricação</label>
+            <input type="text" min="1970" id="qtde">
+        </div>
+        
+        <div class="campo">
+            <label for="tipo">Motor (Ex: 1.0)</label>
+            <input type="text" id="tipo"></input>
+          </div>
+      </form>
+      <h2 class="simas2">Simas</h2>
+      <h2 class="turbo2">Turbo™</h2>
+      <div class="hero2-btn">
+        <button>
+          Solicitar informações para meu projeto
+        </button>
+      </div>
+    </div>
 </body>
 </html>

@@ -4,9 +4,6 @@
 ## Tarefas
 
 - [x] Header
-- [ ] Apresentação
-- [ ] Projetos
-- [ ] Orçamento
-- [ ] Configurações
-- [ ] Menu
+- [x] Projetos
+- [x] Orçamento
 - [x] Responsividade
